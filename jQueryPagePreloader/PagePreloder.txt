@@ -1,0 +1,36 @@
+============================= HTML ==============================
+<div class="loader">
+	<div class="loader-inner"></div>
+</div>
+
+============================== CSS ==============================
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: none repeat scroll 0 0 #fff;
+    z-index: 9999;
+}
+
+.loader-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 60px;
+    width: 60px;
+    background-image: url("../path/to/.gif") #fff no-repeat center center;
+    background-size: cover;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+============================= jQuery =============================
+
+$(window).load(function() { 
+	$(".loaderInner").fadeOut(); 
+	$(".loader").delay(400).fadeOut("slow"); 
+});
