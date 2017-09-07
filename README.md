@@ -26,12 +26,14 @@ Strikethrough -> ~~Scratch this.~~
 
 List:
 
-1. Item
- * Item
-  + Item
-2. Item
- a. Item
-3. Item
+1. ItemOL
+    + ItemUL
+        + ItemUL
+            + ItemUL
+2. ItemOl
+    1. ItemOL
+    2. ItemOL
+3. ItemOL
 
 * Unordered list can use asterisks
 - Or minuses
