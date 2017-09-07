@@ -15,11 +15,11 @@ H2
 
 Emphasis:
 
-Italic *asterisks* or _underscores_.
+Italic -> *asterisks* or _underscores_.
 
-Strong(bold) **asterisks** or __underscores__.
+Strong(bold) -> **asterisks** or __underscores__.
 
-Strikethrough ~~Scratch this.~~
+Strikethrough -> ~~Scratch this.~~
 
 Выделение тёмным фоном прямо в тексте
 `выделенные слова`
@@ -28,8 +28,9 @@ List:
 
 1. Item
  * Item
+  + Item
 2. Item
- 1. Item
+ a. Item
 3. Item
 
 * Unordered list can use asterisks
@@ -39,8 +40,11 @@ List:
 Link:
 
 <http://webdesign.ru.net>
+
 [link](https://www.google.com)
+
 [link with title](https://www.google.com "Google's Homepage")
+
 [link text itself]: http://www.reddit.com
 
 Image:
@@ -66,7 +70,7 @@ But let's throw in a <b>tag</b>.
 
 Блок текста с более тёмным фоном, четыре пробела (и более) от начала каждой строки:
 
-dir /fonts
+    dir /fonts
     dir /images
     dir /js
 
@@ -94,16 +98,8 @@ ___
 
 Underscores
 
-Paragraph:
+Paragraph(Пустая строка между абзацами):
 
-Первая часть текста, который необходимо разделить
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat non aspernatur voluptatibus blanditiis iste, culpa voluptatem accusamus obcaecati autem illum minus esse magnam libero, expedita delectus fugit numquam. Dolorem quidem veritatis in fugiat debitis suscipit incidunt aspernatur nam ullam dolores, sequi consequuntur obcaecati rem voluptas inventore reprehenderit ea impedit perferendis!
 
-***
-
-Вторая часть текста, который необходимо разделить
-
-Первая часть текста, который необходимо разделить
-
----
-
-Вторая часть текста, который необходимо разделить
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat non aspernatur voluptatibus blanditiis iste, culpa voluptatem accusamus obcaecati autem illum minus esse magnam libero, expedita delectus fugit numquam. Dolorem quidem veritatis in fugiat debitis suscipit incidunt aspernatur nam ullam dolores, sequi consequuntur obcaecati rem voluptas inventore reprehenderit ea impedit perferendis!
