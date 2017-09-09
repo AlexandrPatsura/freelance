@@ -18,17 +18,17 @@
 
 ### Alternative spellings header:
 
-    # H1
+    H1
     ======
 
-# H1
+H1
 ======
 
-    ## H2
-    ------
+    H2
+    -------
 
-## H2
-------
+H2
+-------
 
 ### Emphasis:
 
@@ -67,7 +67,7 @@ Highlighting `a dark background` right in the text
             + ItemUL
 2. ItemOl
     1. ItemOL
-    2. ItemOL
+        1. ItemOL
 3. ItemOL
 
 ### Unordered list:
@@ -100,9 +100,9 @@ Highlighting `a dark background` right in the text
 
 ### Image:
 
-    ![alt text](https://avatars2.githubusercontent.com/u/11632545?v=3&s=200)
+    ![alt text](https://www.shareicon.net/data/128x128/2015/09/02/94531_logo_512x512.png)
 
-![alt text](https://avatars2.githubusercontent.com/u/11632545?v=3&s=200)
+![alt text](https://www.shareicon.net/data/128x128/2015/09/02/94531_logo_512x512.png)
 
 ### Code:
 
