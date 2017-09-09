@@ -1,4 +1,4 @@
-# Manual for writing the file README.md
+# Manual for writing README.md
 
 ### Headers H1-H6:
 
